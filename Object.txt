@@ -1,0 +1,29 @@
+//Reference var  	object, vùng ram bự trong HEAP
+//Object var 		instance, thể hiện, hiện thân, bức tượng
+//"pointer" var
+
+Instance variable:
+
+– được khai báo trong class, nhưng bên ngoài các method, constructor hoặc block.
+
+– được tạo ra khi một object được tạo ra và bị hủy khi object bị hủy
+
+– giữ các giá trị được tham chiếu tới bởi nhiều method, constructor hoặc block, hoặc là các phần khác.
+
+– có thể được khai báo trong lớp trước hoặc sau khi sử dụng nó.
+
+– các giới hạn truy xuất được dùng với local variable.
+
+– thông thường thì local variable sẽ visible với tất cả các method, constructor và block trong class.
+
+– có giá trị mặc định của chúng. number thì là 0, boolean thì là false, object là null.
+
+– có thể được truy xuất trực tiếp bằng các gọi tên biến bên trong class. Còn với những static method hoặc lớp khác (khi instance variable được cho phép truy
+
+xuất) , thì chúng có thể được gọi thông qua ObjectReference.VariableName
+
+JVM có đoạn code, module giám sát HEAP, ko có con trỏ -> giết ngay
+=> Garbage collector, người gom rác.
+
+regular expression for email.
+System.gc(); // gom rác HEAP ~ free() in C.

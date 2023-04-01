@@ -1,0 +1,11 @@
+Mảng Java:
+- Mảng là kĩ thuật khai báo nhiều biến (biến sẽ ứng với value sau đó) - nhiều biến nhiều value, nhiều p tử tương ứng
+- Mảng là kĩ thuật khai báo nhiều biến cùng kiểu, cùng lúc, ở sát nhau trong ram, và CÙNG TÊN.
+Cách phân biệt khi biến trùng tên: dùng tên phụ [index].
+EX: An[A]
+    An[B]
+    An[cao]
+    An[thấp]
+Giá phải trả: khai báo biến nhanh hơn
+
+Mảng tỉnh, STATIC ARRAY, STACK LIFO, BỊ KIỂM SOÁT, BỊ ĐỘNG CẤP PHÁT XIN RAM.
