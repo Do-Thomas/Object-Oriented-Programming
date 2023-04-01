@@ -1,0 +1,35 @@
+
+Class bao gồm thuộc tính và phương thức:
++ Thuộc tính: đặc điểm thông tin của Class.
++ Phương thức là những xử lí bên trong Class.
+
+Constructor: có tên trùng với tên Class, ko return type.
+3. Nếu Class ko có COnstructors thì trình biên dịch tự tạo Constructors (ko có tham số)
+Mục đích: Khởi tạo giá trị các thuộc tính của Object.
+high cohesion - low coupling.
+
+
+This: return the address of the current object (đối tượng hiện tại)
+
+
+Packet: lưu các Class cùng tên, tạo thư mục
+
+có 2 loại: có sẵn do NetBean cung cấp
+2: lập trình viên tự tạo
+
+
+Modifiers: hiểu được phạm vi truy cập mã nguồn.
+public: phạm vi ko giới hạn, được sử dụng khai báo class, interface, thuộc tính.
+protected:giới hạn bên trong package, những class cùng gói, hoặc class con. chỉ dc sử dụng khai báo thuộc tính hoặc phương thức
+
+defult: tương tự protected nhưng ko có Class con.
+private:chỉ sử dụng bên trong class.
+
+protected, default: khai báo thuộc tính và phương thức.
+
+setter:
+getter:
+
+data hiding (nghĩa là che giấu dữ liệu): tính đóng gói
+
+private + get:Read; setter:write. = public

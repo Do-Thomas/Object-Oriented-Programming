@@ -1,0 +1,26 @@
+Slot 3: 
+ String
+"" + 12 => "12"
+"1" + "2" => "12" 
+
+https://viblo.asia/p/string-stringbuffer-va-stringbuilder-trong-java-vyDZOQg75wj
+
+Chuyển từ chuỗi sang số: Long.parseLong("2");
+Intteger.parsInt("a");
+
+double b;
+long a = (long)b;
+
+Ép kiểu: ko ép lớn thành nhỏ 
+
+byte - short - int - long - float - double
+
+1.Scanner s = new Scanner(System.in);
+2. Input: 
+     s.nextLine(): Nhập chữ
+     s.nextInt(): int
+     s.nextLong(): long
+
+Integer.paseInt(s.nextLine());
+Long.parseLong(s.nextLine);
+String.parseString(

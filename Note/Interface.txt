@@ -1,0 +1,14 @@
+1.Tính đóng gói:kiểm soát thông tin hiển thị của đối tượng
+Ex: public bài viết trên fb.
+
+2. Tính kế thừa:
+
+3.Tính đa hình: thể hiện cùng 1 đối tượng nhưng có những đối tượng khác nhau tại những thời điểm khác nhau.
+vd: Ở nhà tên Tom
+    Ở trường: Thomas
+
+4. Tính trừu tượng: ==> rut1ra: ấn tượng (hình dung, gợi); biểu tưởng
+
+Ex: hình học - Tính trừu tượng: hình chữ nhật, hình tròn
+             - Tính đa hình: cùng đối tượng hình học, tính chu vi: nhiều loại hcn, tam giác,...
+             - 

@@ -1,0 +1,43 @@
+Slot 2:
+JDK: Java Development Kit => lập trình viên .jar
+
+JRE: Java Runtime Enviroment=> user
+
+-Java runtime is everywhere - JVM (máy ảo)
+- Java (javac) => class (Java) => .jar
+
+boolean gender;
+=> Giá trị ban đầu ???
+int age; 
+=> Giá trị ban đầu ???
+
+String str1 = "Hello"; trỏ tới địa chỉ lưu chuỗi "Hello"
+String str2 = new String("Hello";
+
++ str1 == str2 => False (so sánh giá trị (số))
+ 
+C: int a[10];
+Java: int a[] = new int[10];
+or int[] a = new int[10];
+
+mảng 2 chiều:
+int b[5][10];
+int b[][] = new int[5][10]
+
+b = new int[row][column];
+
+Hệ thống số?????????
+Mức độ ưu tiên của Operation
+
+foreach: duyệt theo giá trị
+for (i;;;) : duyệt theo số
+
+//foreach
+for (int n : a) {
+	Sustem.out.print(n);   // n = a[i]
+=> Lấy tổng (ko quan tâm số lượng in ra).
+
+
+
+
+

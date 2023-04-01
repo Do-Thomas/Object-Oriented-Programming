@@ -1,0 +1,4 @@
+checked: yêu cầu ltv phải xử lí ngoại lệ tại thời điểm  viết code
+vd: xử lí đọc ghi file, xử lí đọc ghi cơ sở dữ liệu
+unchecked: ko cần xử lí tại thời điểm
+vd xủ lí mảng. nhập số

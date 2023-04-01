@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Test {
+
+    public static void main(String[] args) {
+        
+        String[] list = new String[3];
+        Scanner sc = new Scanner(System.in);
+        System.out.println("List names");
+        for (int i = 0; i < 3; i++) {
+            list[i] = sc.nextLine();
+            System.out.print("Enter student name "+ (i) + ": ");
+        }
+        for (int i = 0; i < 3; i++) {
+            char[] charArray = list[i].toCharArray();
+            boolean space = true;
+            for (int j = 0; j < charArray.length; j++) {
+                if (Character.isLetter(charArray[j])) {
+                    if (space) {
+                        charArray[j] = Character.toUpperCase(charArray[j]);
+                        space = false;
+                    }
+                } else {
+                    space = true;
+                }
+            }
+            list[i] = String.valueOf(charArray);
+            System.out.println("\nAfter Upper: " + list[i]);
+        }
+
+    }
+}
